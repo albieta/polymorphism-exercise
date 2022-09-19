@@ -10,6 +10,5 @@ public class Main {
         figures[2] = new Quadrat(2);
 
         Arrays.sort(figures);
-
     }
 }
