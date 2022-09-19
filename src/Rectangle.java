@@ -6,6 +6,10 @@ public class Rectangle extends Figura {
         this.l2 = l2;
     }
 
+    public String name() {
+        return "Rectangle";
+    }
+
     @Override
     public double area() {
         return l1 * l2;
